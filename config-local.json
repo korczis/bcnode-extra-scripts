@@ -1,0 +1,27 @@
+{
+  "_version": 2,
+
+  "bc": {
+    "council": {
+      "enabled": false
+    }
+  },
+
+  "metrics": {
+    "enabled": true
+  },
+
+  "p2p": {
+    "rendezvous": {
+      "websocket": "/dns4/127.0.0.1/tcp/9090/ws/p2p-websocket-star"
+    },
+
+    "quorum": {
+      "size": 2
+    }
+  },
+
+  "server": {
+    "port": 9000
+  }
+}
